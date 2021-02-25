@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Housing",
+    "thumbnail": "ic_food"
+  },
+  {
+    "id": "2",
+    "name": "Transportation",
+    "thumbnail": "ic_transport"
+  },
+  {
+    "id": "3",
+    "name": "Food",
+    "thumbnail": "ic_food"
+  },
+  {
+    "id": "4",
+    "name": "Utilities",
+    "thumbnail": "ic_utilities"
+  },
+  {
+    "id": "5",
+    "name": "Healthcare",
+    "thumbnail": "ic_medical"
+  },
+  {
+    "id": "6",
+    "name": "Saving & Debts",
+    "thumbnail": "ic_savings"
+  },
+  {
+    "id": "7",
+    "name": "Personal Spending",
+    "thumbnail": "ic_personal_spending"
+  },
+  {
+    "id": "8",
+    "name": "Entertainment",
+    "thumbnail": "ic_entertainment"
+  },
+  {
+    "id": "9",
+    "name": "Miscellaneous",
+    "thumbnail": "ic_others"
+  },
+  {
+    "id": "10",
+    "name": "Insurance",
+    "thumbnail": "ic_insurance"
+  }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="app.elite.spendup.view.dashboard.DashboardFragment"
+        android:label="DashboardFragment"
+        tools:layout="@layout/dashboard_layout">
+        <action
+            android:id="@+id/action_dashboardFragment_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_detailTransactionFragment"
+            app:destination="@id/detailTransactionFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_addTagFragment"
+            app:destination="@id/addTagFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="app.elite.spendup.view.add.AddTransactionFragment"
+        android:label="AddTransactionFragment"
+        tools:layout="@layout/add_transaction_layout" />
+    <fragment
+        android:id="@+id/detailTransactionFragment"
+        android:name="app.elite.spendup.view.detail.DetailTransactionFragment"
+        android:label="DetailTransactionFragment"
+        tools:layout="@layout/transaction_details_layout">
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <dialog
+        android:id="@+id/addTagFragment"
+        android:name="app.elite.spendup.view.tag.AddTagFragment"
+        android:label="AddTagFragment"
+        tools:layout="@layout/add_tag_layout" />
+</navigation>
